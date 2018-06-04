@@ -4,13 +4,13 @@
 EAPI="5"
 ETYPE="sources"
 K_WANT_GENPATCHES="base extras experimental"
-K_GENPATCHES_VER="52"
+K_GENPATCHES_VER="55"
 
 inherit kernel-2
 detect_version
 detect_arch
 
-KEYWORDS="arm"
+KEYWORDS="~arm"
 HOMEPAGE="https://dev.gentoo.org/~mpagano/genpatches"
 IUSE="experimental"
 
